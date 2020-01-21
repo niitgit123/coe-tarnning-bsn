@@ -1,0 +1,12 @@
+---
+ #paly book-1
+ 
+ - hosts:app_server
+   tasks:
+   - copy: src=/home/usrer/demo.txt dest=/temp/
+   - command: touch/temp/demo_dir
+ #play book-2
+ 
+ - hosts:app_server
+   tasks:
+     -copy: src=/home/usrer/demo.txt dest=/temp/
