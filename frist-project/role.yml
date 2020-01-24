@@ -1,0 +1,12 @@
+---
+### Installing vim codes
+- hosts: all
+  role: installing
+
+### Installing apache
+  - name: inatalling the update commands
+    role: installing the commapns
+    tags
+     - insta;lling the commapnbs 
+     - commands code 
+ 
