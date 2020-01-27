@@ -1,0 +1,11 @@
+---
+- hosts: web server
+  name: all
+  tags:
+   - install linux webserver
+
+## Installing rpm pacakages
+  - name: install rpm packages
+    role: install packages rpm artificarty
+    tags:
+     - install pacakages pckages
